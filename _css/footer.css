@@ -1,0 +1,123 @@
+#footer {
+	background-color: #000000;
+}
+
+.global-footer {
+	padding: auto;
+}
+
+.title-footer {
+	margin: 100px auto;
+}
+
+.title-footer h3 {
+	font-family: Arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.numbers-feedback {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 20px 0;
+}
+
+.numbers {
+	text-align: center;
+}
+
+.numbers:hover * {
+	color: var(--login-button-hover);
+	cursor: pointer;
+	transition: .5s ease-in linear;
+}
+
+.numbers p {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #ffffff;
+	animation: piscaTexto .6s ease-in-out infinite;
+}
+
+.numbers h3 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footer-button {
+	margin: 75px auto;
+	text-align: center;
+}
+
+.footer-button button {
+	background-color: var(--login-button);
+	padding: 12px 55px;
+	border: 2px solid #0b7bfb;
+	border-radius: 8px;
+	text-align: center;
+	animation: pulseButton .6s ease-in-out infinite;
+}
+
+.footer-button a {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.footer-button button:hover {
+	background-color: var(--login-button-hover);
+	transition: .5s ease;
+}
+
+.footer-button button::before {
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	text-align: left;
+	content: "\f0a9";
+	padding: 1px;
+	margin-left: auto;
+	margin-right: 5px;
+	position: relative;
+	left: auto; right: auto;
+}
+
+.copyright {
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.copyright p small {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.copyright a {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	color: var(--title_color_secondary);
+}
+
+.copyright a:hover {
+	color: var(--login-button-hover);
+	transition: .5s ease-in linear;
+}

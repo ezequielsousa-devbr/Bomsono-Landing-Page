@@ -1,0 +1,8 @@
+@keyframes pulseButton {
+	from{
+		background-color: #0b7bfb;
+	}
+	to{
+		background-color: #3590fa;
+	}
+}

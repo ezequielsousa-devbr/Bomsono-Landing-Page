@@ -1,0 +1,70 @@
+/* Importar folhas de estilos por secções */
+@import '../_css/header.css';
+@import '../_css/main.css';
+@import '../_css/footer.css';
+@import '../_css/animation.css';
+
+/* Variáveis globais */
+:root {
+	--title_color_default: #101010;
+	--title_color_secondary: #7C7575;
+	--login-button: #0b7bfb;
+	--login-button-hover: #3590fa;
+	--section-background-default: #F4F4F4;
+}
+
+/* Ajustando layout do site... Zerando algum valores padrões dos elementos html. */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	font-size:  larger;
+	color: #000000;
+	line-height: auto;
+}
+
+input {
+	border: none;
+	background-color: rgba(25,25,25,0.400);
+}
+
+button {
+	border: 1px solid rgb(25,25,25);
+	background-color: rgb(50,50,50);
+	border-radius: 20px;
+	padding: 14px 30px;
+}
+
+input:focus {
+	outline: none;
+	background-color: #000000;
+}
+
+form, legend, fieldset {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: medium;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: medium;
+	font-weight: 500;
+}
+
+/* Grid Layout */
+.grid-layout {
+	display: grid;
+	grid-template-rows: header main footer;
+	grid-row-gap: 10px;
+}
