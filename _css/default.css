@@ -4,6 +4,9 @@
 @import '../_css/footer.css';
 @import '../_css/animation.css';
 
+/* Fontes Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* Variáveis globais */
 :root {
 	--title_color_default: #101010;
@@ -55,11 +58,24 @@ form, legend, fieldset {
 	font-size: medium;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-size: medium;
+}
+
+p {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-size: medium;	
+}
+
 a {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
 	text-decoration: none;
 	color: #000000;
 	font-size: medium;
-	font-weight: 500;
 }
 
 /* Grid Layout */

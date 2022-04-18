@@ -56,9 +56,9 @@
 }
 
 .list-menu li a {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: .9rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .list-menu li:hover {
@@ -79,7 +79,7 @@
 
 .login button {
 	background-color: var(--login-button);
-	padding: 10px 50px;
+	padding: 5px 28px;
 	border: 2px solid #0b7bfb;
 	border-radius: 20px;
 }
@@ -101,12 +101,13 @@
 }
 
 .login button a {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #ffffff;
-	font-weight: 500;
+	font-weight: 400;
 	text-align: center;
 	text-transform: capitalize;
+	line-height: 20px;
 }
 
 /* Header banner */
@@ -120,7 +121,7 @@
 }
 
 .header-text h2 {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2.4rem;
 	font-weight: 700;
 	color: #171313;
@@ -129,7 +130,7 @@
 }
 
 .header-text .subtitle {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	font-weight: 400;
 	color: #2F2F2F;
@@ -158,9 +159,9 @@
 }
 
 .header-text button a {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
